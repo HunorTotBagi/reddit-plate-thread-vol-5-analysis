@@ -16,6 +16,10 @@ pip install matplotlib seaborn pandas numpy
 
 ```
 
+## Data
+
+The data was collected from a Reddit thread titled ["Plata Thread Vol. 5"](https://www.reddit.com/r/programiranje/comments/13xr2mp/plata_thread_vol_5/) in the r/programiranje subreddit. Comments containing both salary and experience information were manually selected for inclusion in the dataset. To analyze salary distribution across different technologies, a one-hot encoding method was applied. This technique converted categorical variables, such as programming languages or frameworks, into binary vectors. Each technology was assigned a binary value indicating its presence or absence in a data point.
+
 
 
 
