@@ -24,7 +24,7 @@ To analyze salary distribution across different technologies, a one-hot encoding
 
 ## Code Explanation
 
-- The code performs the following tasks:
+The code performs the following tasks:
 
 - Reads the data from the data.csv file into a pandas DataFrame.
 
