@@ -40,3 +40,10 @@ To analyze salary distribution across different technologies, a one-hot encoding
 
 - Generates histograms for the 'Salary' column and saves them in the salary_histograms.pdf file.
 
+## Outputs
+### generated_images.pdf
+This PDF file contains scatter plots for subsets of data based on the columns in the DataFrame. Each plot represents the relationship between 'Experience' (x-axis) and 'Salary' (y-axis) for a specific subset.
+
+### salary_histograms.pdf
+This PDF file contains two histograms of the 'Salary' column. The first histogram shows the distribution in salary range 0 to 10000, the second from range from 0 to 4500 
+
