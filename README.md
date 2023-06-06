@@ -36,9 +36,9 @@ The code performs the following tasks:
 
 - Sorts the dictionary based on the frequency in descending order.
 
-- Generates scatter plots for each subset of data using the ploting function and saves them in the generated_images.pdf file.
+- Generates scatter plots for each subset of data using the `ploting` function and saves them in the `generated_images.pdf` file.
 
-- Generates histograms for the 'Salary' column and saves them in the salary_histograms.pdf file.
+- Generates histograms for the 'Salary' column and saves them in the `salary_histograms.pdf` file.
 
 ## Outputs
 ### generated_images.pdf
