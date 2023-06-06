@@ -47,3 +47,9 @@ This PDF file contains scatter plots for subsets of data based on the columns in
 ### salary_histograms.pdf
 This PDF file contains two histograms of the 'Salary' column. The first histogram shows the distribution in salary range 0 to 10000, the second from range from 0 to 4500 
 
+## Acknowledgements
+
+The code in this repository was developed by Hunor Tot-Bagi. If you find this code useful, consider giving it a star on GitHub.
+
+If you have any questions or suggestions, feel free to open an issue or contact me at hunortotbagi@gmail.com
+
