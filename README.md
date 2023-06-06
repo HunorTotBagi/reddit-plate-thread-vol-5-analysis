@@ -20,9 +20,9 @@ pip install matplotlib seaborn pandas numpy
 
 The data was collected from a Reddit thread titled ["Plata Thread Vol. 5"](https://www.reddit.com/r/programiranje/comments/13xr2mp/plata_thread_vol_5/) in the r/programiranje subreddit. Comments containing both salary and experience information were manually selected for inclusion in the dataset. 
 
-To analyze salary distribution across different technologies, a one-hot encoding method was applied. This technique converted categorical variables, such as programming languages or frameworks, into binary vectors. Each technology was assigned a binary value indicating its presence or absence in a data point.
+To analyze salary distribution across different technologies, a one-hot encoding method was applied. This technique converted categorical variables, such as programming languages or frameworks. Each technology was assigned a binary value indicating its presence or absence in a data point.
 
-## Code Explanation
+## Code
 
 The code performs the following tasks:
 
@@ -45,7 +45,7 @@ The code performs the following tasks:
 This PDF file contains scatter plots for subsets of data based on the columns in the DataFrame. Each plot represents the relationship between 'Experience' (x-axis) and 'Salary' (y-axis) for a specific programming languages or frameworks.
 
 ### salary_histograms.pdf
-This PDF file contains two histograms of the 'Salary' column. The first histogram shows the distribution in salary range 0 EUR to 10000 EUR, the second from range from 0 EUR to 4000 EUR.
+This PDF file contains two histograms of the 'Salary' column. The first histogram shows the distribution in salary range 0 EUR to 10000 EUR, the second from 0 EUR to 4000 EUR.
 
 ## Acknowledgements
 
