@@ -42,7 +42,7 @@ The code performs the following tasks:
 
 ## Outputs
 ### generated_images.pdf
-This PDF file contains scatter plots for subsets of data based on the columns in the DataFrame. Each plot represents the relationship between 'Experience' (x-axis) and 'Salary' (y-axis) for a specific technology.
+This PDF file contains scatter plots for subsets of data based on the columns in the DataFrame. Each plot represents the relationship between 'Experience' (x-axis) and 'Salary' (y-axis) for a specific programming languages or frameworks.
 
 ### salary_histograms.pdf
 This PDF file contains two histograms of the 'Salary' column. The first histogram shows the distribution in salary range 0 EUR to 10000 EUR, the second from range from 0 EUR to 4000 EUR.
