@@ -10,6 +10,11 @@ Before running the code, ensure that you have the following dependencies install
 - `pandas`
 - `numpy`
 
+You can install these libraries using `pip`:
+```
+pip install matplotlib seaborn pandas numpy
+
+```
 
 
 
