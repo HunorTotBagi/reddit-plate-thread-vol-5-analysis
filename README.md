@@ -13,7 +13,6 @@ Before running the code, ensure that you have the following dependencies install
 You can install these libraries using `pip`:
 ```
 pip install matplotlib seaborn pandas numpy
-
 ```
 
 ## Data
