@@ -18,17 +18,25 @@ pip install matplotlib seaborn pandas numpy
 
 ## Data
 
-The data was collected from a Reddit thread titled ["Plata Thread Vol. 5"](https://www.reddit.com/r/programiranje/comments/13xr2mp/plata_thread_vol_5/) in the r/programiranje subreddit. Comments containing both salary and experience information were manually selected for inclusion in the dataset. To analyze salary distribution across different technologies, a one-hot encoding method was applied. This technique converted categorical variables, such as programming languages or frameworks, into binary vectors. Each technology was assigned a binary value indicating its presence or absence in a data point.
+The data was collected from a Reddit thread titled ["Plata Thread Vol. 5"](https://www.reddit.com/r/programiranje/comments/13xr2mp/plata_thread_vol_5/) in the r/programiranje subreddit. Comments containing both salary and experience information were manually selected for inclusion in the dataset. 
 
+To analyze salary distribution across different technologies, a one-hot encoding method was applied. This technique converted categorical variables, such as programming languages or frameworks, into binary vectors. Each technology was assigned a binary value indicating its presence or absence in a data point.
 
+## Code Explanation
 
+- The code performs the following tasks:
 
+- Reads the data from the data.csv file into a pandas DataFrame.
 
+- Drops columns from the DataFrame that have only one unique value.
 
+- Defines a function ploting that generates scatter plots for specific subsets of data.
 
+- Calculates the frequency of occurrence for each column in the DataFrame and stores it in a dictionary.
 
+- Sorts the dictionary based on the frequency in descending order.
 
+- Generates scatter plots for each subset of data using the ploting function and saves them in the generated_images.pdf file.
 
-This repository provides a quick analysis of IT salaries in the Balkan region, focusing on data obtained from a Reddit post. The data was processed and visualized using Python, resulting in the creation of scatter plots that reveal interesting trends and correlations between salary levels, professional experience, and various technology skills.
+- Generates histograms for the 'Salary' column and saves them in the salary_histograms.pdf file.
 
-The data was collected from https://www.reddit.com/r/programiranje/comments/13xr2mp/plata_thread_vol_5/
