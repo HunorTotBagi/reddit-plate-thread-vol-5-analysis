@@ -30,7 +30,7 @@ The code performs the following tasks:
 
 - Drops columns from the DataFrame that have only one unique value.
 
-- Defines a function ploting that generates scatter plots for specific subsets of data.
+- Defines a function `ploting` that generates scatter plots for specific subsets of data.
 
 - Calculates the frequency of occurrence for each column in the DataFrame and stores it in a dictionary.
 
