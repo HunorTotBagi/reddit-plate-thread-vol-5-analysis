@@ -25,19 +25,19 @@ To analyze salary distribution across different technologies, a one-hot encoding
 
 The code performs the following tasks:
 
-- Reads the data from the `data.csv` file into a pandas DataFrame.
+- Reads the data from the `data.csv` file into a pandas DataFrame
 
-- Drops columns from the DataFrame that have only one unique value.
+- Drops columns from the DataFrame that have only one unique value
 
-- Defines a function `ploting` that generates scatter plots for specific subsets of data.
+- Defines a function `ploting` that generates scatter plots for specific subsets of data
 
-- Calculates the frequency of occurrence for each column in the DataFrame and stores it in a dictionary.
+- Calculates the frequency of occurrence for each column in the DataFrame and stores it in a dictionary
 
-- Sorts the dictionary based on the frequency in descending order.
+- Sorts the dictionary based on the frequency in descending order
 
-- Generates scatter plots for each subset of data using the `ploting` function and saves them in the `generated_images.pdf` file.
+- Generates scatter plots for each subset of data using the `ploting` function and saves them in the `generated_images.pdf` file
 
-- Generates histograms for the 'Salary' column and saves them in the `salary_histograms.pdf` file.
+- Generates histograms for the 'Salary' column and saves them in the `salary_histograms.pdf` file
 
 ## Outputs
 ### generated_images.pdf
